@@ -8,7 +8,7 @@
 // 1   1   2   3   4
 // 2   2   3   4   5
 
-int[,] CreateMatrixRndInt(int raws, int columns)
+int[,] CreateMatrixSumPosInt(int raws, int columns)
 {
     int[,] matrix = new int[raws, columns];
 
@@ -36,5 +36,5 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-int[,] array2D=CreateMatrixRndInt(7, 10);
+int[,] array2D=CreateMatrixSumPosInt(7, 10);
 PrintMatrix(array2D);
